@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+	<title>Procraz</title>
+
+	<!-- iPhone ICON-->
+	<link rel="apple-touch-icon" href="img/icon-57x57.png" sizes="57x57" >
+	<!-- iPhone ICON (Retina) -->
+	<link rel="apple-touch-icon" href="img/icon-114x114.png" sizes="114x114" >
+	<link rel="apple-touch-icon" href="img/icon-57x57.png">
+	<!-- iPhone SPLASHSCREEN -->
+	<link
+		rel="apple-touch-startup-image"
+		href="img/startup-320x460.jpg"
+		media="(device-width: 320px)" >
+	<!-- iPhone SPLASHSCREEN (Retina) -->
+	<link
+		rel="apple-touch-startup-image"
+		href="img/startup-640x920.jpg"
+		media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)" >
+	<!-- iPhone SPLASHSCREEN (Retina 5) -->
+	<link
+		rel="apple-touch-startup-image"
+		href="img/startup-640x1096.jpg"
+		media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)">
+
+	<!-- CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" href="css/css-add2home.css">
+
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+
+	<!-- JS -->
+	<script src="js/jquery-1.11.0.min.js"></script>
+	<script src="js/jquery.simpleWeather.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/process.js"></script>
+	<script src="js/links.js"></script>
+
+	<link href='http://fonts.googleapis.com/css?family=Chicle' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+	<div id="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<center>
+						<h1>How are You Feeling?</h1>
+					</center>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<center>
+				<ul class="nav nav-pills nav-stacked">
+				  <li align="center"><a href="process.html#feeling=1">Excited</a></li>
+				  <li align="center"><a href="process.html#feeling=2">Tired</a></li>
+				  <li align="center"><a href="process.html#feeling=0">Stressed</a></li>
+				</ul>
+				</center>
+			</div>
+		</div>
+	</div>
+
+	<div id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<center>Let See What We Should Do</center>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="rotate">
+		<h1> Oops </h1>
+		<p> Rotate device to portrait mode</p>
+		<img src="img/rotate.png" >
+	</div>
+
+	<!-- Custom JS -->
+	<script type="text/javascript">
+            //customize config vars before loading add2home.js
+		var addToHomeConfig = {
+			touchIcon: true,
+			 animationIn: 'bubble',
+               animationOut: 'drop',
+			message: 'Install Procraz on <strong>%device</strong>: TAP %icon and then <strong>Add to Home Screen</strong>.'
+		};
+        </script>
+    <script src="js/js-add2home.js"></script>
+
+</body>
+</html>
